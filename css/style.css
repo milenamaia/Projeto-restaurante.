@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/*----------------------------estilos de header e nav------------------------*/
+
+.nav {
+    position: fixed;
+    height: 55px;
+    line-height: 3em;
+    background: rgb(255, 255, 255);
+    text-align:right;
+    box-shadow: 4px -1px 4px black;
+    width: 100%;
+}
+
+.logo {
+    width:150px;
+    float:left;
+    display:block;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.logo img{
+    max-width: 200px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+}
+
+.menu {
+    float:right;
+    margin-right:3%;
+
+}
+
+.menu a {
+    color:#000000;
+    margin: 0 1.825em 0 0;
+    line-height: 3em;
+    clear:right;
+    font-size: 21px;
+}
+
+.menu a:hover {
+    color:rgb(230, 102, 17);
+}
+
+.menu a.ativo {
+    color:rgb(177, 112, 39);
+    font-weight: bold;
+}
+
+#sem-margem {
+    margin-right:0;
+}
+
+#toggle{
+    display: none;
+}
+
+/* rodape footer */
+
+.rodape {
+    background:#e6dcdc; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:rgb(15, 15, 15);
+}
+
+footer.rodape-items {
+    display:flex;
+}
+
+.rodape-logo {
+    padding-top:2em;
+}
+
+.rodape-logo img {
+    width:130px;
+    height:auto;
+    padding-bottom:1.5em;
+}
+
+.rodape-endereco {
+    line-height:1.6em;
+    font-size:0.8em;
+}
+
+.rodape-endereco p {
+    padding-bottom:0.6em;
+}
+
+.rodape-redes-sociais ul {
+    display:flex;
+    justify-content: center;
+    padding:1em;
+}
+
+.rodape-redes-sociais ul li a  {
+    padding:1em 1em 0 1em;
+    color:#fff;
+    font-size:1.5em;
+    transition: all 1s;
+}
+
+.rodape-nav ul {
+    display:flex;
+    justify-content: center;
+}
+
+
+.rodape-nav ul li a {
+    display:block;
+    padding:0 1em 1.5em 1em;
+    color:#fff;
+    transition: all 1s;
+    text-decoration: underline;
+}
+
+.rodape-nav ul li a:hover, .rodape-redes-sociais ul li a:hover {
+    color:rgb(218, 167, 91);
+    text-decoration: none;
+}
+
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon  .label {
+			display: none;
+		}
+
+		.icon.major {
+			display: inline-block;
+			margin: 0 0 1.25em 0;
+			color: #ffffff;
+			background: #629DD1;
+			width: 3em;
+			height: 3em;
+			font-size: 2em;
+			text-align: center;
+			line-height: 3em;
+			border-radius: 100%;
+			box-shadow: 0 0 0 10px #fff, 0 0 0 11px rgba(144, 144, 144, 0.25);
+}
+
+/* List */
+
+.container {
+    padding: 0px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 35%;
+    height: 100%; 
+    overflow: auto; 
+    padding-top: 250px;
+    margin-left: 600px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+.mapa {
+	padding-top: 240px;
+	margin-left: 800px;
+    margin-top: -45%; 
+}
+
+
+.fundo{
+    width: 100%;
+    height: 25%;
+    background-image: url(../img/fundo.jpg);
+    background-position: 51% 46%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f6f5f4;
+}
+
+.fundo1{
+    width: 100%;
+    height:  25%;
+    background-image: url(../img/fundo1.jpg);
+    background-position: 51% 55%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f6f5f4;
+    margin-top: 30px;
+}
