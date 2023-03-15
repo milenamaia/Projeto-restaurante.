@@ -1,5 +1,4 @@
-
-@media only screen and  (max-width:409px) {
+@media only screen and  (max-width:325px) {
     /* menu responsivo */
 
     .menu {
@@ -25,6 +24,7 @@
 
     .menu a {
         font-size: 17px;
+        margin: 0 1.8rem 0 0;
     }
 
     .topSlider span {
@@ -93,17 +93,9 @@
 
 }
 
-@media only screen   and  (min-width:375px) and  (max-width:409px) {
-        .menu a {
-            font-size: 18px;
-        }
+@media only screen and  (min-width:326px) and  (max-width:354px) {
+    /* menu responsivo */
 
-}
-
-
-
-@media only screen   and  (min-width:409px) and  (max-width:725px) {
-   
     .menu {
         text-align:center;
         width:100%;
@@ -115,17 +107,19 @@
         top: 3rem;
     }
 
-     .menu ul{
+    .menu ul{
         place-content: center;
+        padding: 0px 30px 0px 0px;
      }
 
+
     .menu ul  li{
-        margin: -14px -26px 0 0;
-        padding-left: 1px;
+       margin: -10px -24px -1px 1px;
     }
 
     .menu a {
-        font-size: 20px;
+        font-size: 18px;
+        margin: 0 1.8rem 0 0;
     }
 
     .topSlider span {
@@ -133,18 +127,16 @@
     }
 
     .titulo-historia {
-        padding-top: 3em;
+        padding-top: 90px;
 }
 
     .titulo {
-        padding-top: 2em;
+        padding-top: 3em;
 }
-
     .pratos-principais h3 {
     margin-bottom: 1em;
     margin-top: -1em;
 }
-
 
 
     /* características do big-banner para todas as páginas */
@@ -196,3 +188,101 @@
 
 }
 
+@media only screen and  (min-width:355px) and  (max-width: 738px) {
+    /* menu responsivo */
+
+    .menu {
+        text-align:center;
+        width:100%;
+        height: 2em;
+        background: #fefefe;
+        box-shadow: 2px 4px 5px 0px #3635316b;
+        z-index:9999;
+        position:absolute;
+        top: 3rem;
+    }
+
+    .menu ul{
+        place-content: center;
+        padding: 0px 30px 0px 0px;
+     }
+
+
+    .menu ul  li{
+       margin: -15px -24px -1px 1px;
+    }
+
+    .menu a {
+        font-size: 19px;
+        margin: 0 35px 0 0;
+    }
+
+    .topSlider span {
+        padding: 2em auto;
+    }
+
+    .titulo-historia {
+        padding-top: 90px;
+}
+
+    .titulo {
+        padding-top: 95px;
+}
+    .pratos-principais h3 {
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+
+
+    /* características do big-banner para todas as páginas */
+    
+    .banner-titulos{
+        width:90%;
+    }
+
+    .banner-titulos h1 {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+    .banner-titulos h3 {
+        font-size:1.3em;
+        line-height: 1.7em;
+    }
+
+
+    /* características da página história */
+
+    .historia-tudo-p, .historia-tudo-img, .historia-mais-img, .historia-mais-p, .historia-tudo-p-longo, .imagem-longa {
+        width:100%;
+    }
+
+    .historia-mais-img{
+        margin-bottom:2em;
+    }
+
+    /* características da página Gastronomia */
+    .galeria figure {
+        width:100%;
+    }
+
+  #sobre1, #sobre4 {
+      width:100%;
+  }
+
+  article.sobre-2, article.sobre-3 {
+      width:100%;
+      margin-top:1em;
+      margin-bottom:0
+  }
+  
+  .vinho-item {
+      width:100%;
+  }
+
+  .galeria figure img {
+    width: 90%;
+    display: block;
+  }
+
+}
